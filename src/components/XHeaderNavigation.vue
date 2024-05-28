@@ -30,7 +30,7 @@
               </router-link>
             </li>
           </ul>
-          <w-button :light="light">Get a quote</w-button>
+          <x-button :light="light">Get a quote</x-button>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
             {{ a.label }}
           </router-link>
         </li>
-        <w-button :light="light">Get a quote</w-button>
+        <x-button :light="light">Get a quote</x-button>
       </ul>
     </div>
   </div>
@@ -56,7 +56,7 @@ import { navConfig } from '@/configs/nav.config'
 import { useRoute } from 'vue-router'
 import ZebitechLogoLight from "@/components/logos/ZebitechLogoLight.vue";
 import ZebitechLogoDark from "@/components/logos/ZebitechLogoDark.vue";
-import WButton from "@/components/WButton.vue";
+import XButton from "@/components/XButton.vue";
 
 const route = useRoute()
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import WPageHeader from "@/components/WPageHeader.vue";
-import WSection from "@/components/WSection.vue";
+import WPageHeader from "@/components/XPageHeader.vue";
+import WSection from "@/components/XSection.vue";
 </script>
 
 <template>

@@ -18,3 +18,10 @@ body {
     font-style: normal;
 }
 
+.text-dark {
+    @apply text-stone-900;
+}
+
+p {
+    @apply py-2;
+}
