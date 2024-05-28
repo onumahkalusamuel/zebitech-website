@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import WPageHeader from "@/components/XPageHeader.vue";
 import WSection from "@/components/XSection.vue";
+import WhatWeOfferBasic from "@/components/page-parts/WhatWeOfferBasic.vue";
+import OurStats from "@/components/page-parts/OurStats.vue";
 </script>
 
 <template>
   <w-page-header title="Services" />
-  <w-section class="h-48 flex items-center justify-center">
-    Coming soon...
-  </w-section>
+
+  <what-we-offer-basic />
+
+  <our-stats/>
+
 </template>
