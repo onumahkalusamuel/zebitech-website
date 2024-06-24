@@ -8,15 +8,15 @@
 
     <div class="py-10 flex justify-center">
       <div class="carousel carousel-center p-4 space-x-4">
-        <div class="carousel-item relative" v-for="expert in experts" :key="expert.name">
-          <div class="w-full px-5 absolute left-[50%] bottom-5 transform translate-x-[-50%]">
+        <div class="carousel-item relative h-[300px] w-[260px] md:h-[340px] md:w-[280px] rounded-box overflow-hidden" v-for="expert in experts" :key="expert.name">
+          <div class="w-full px-2 absolute left-[50%] bottom-2 transform translate-x-[-50%]">
             <div
-                class="p-5 rounded-xl text-center bg-[url(assets/team-name-card-bg.svg)] bg-no-repeat bg-cover bg-center">
+                class="p-2 md:py-5 rounded-xl text-center bg-[url(assets/team-name-card-bg.svg)] bg-no-repeat bg-cover bg-center">
               <div class="text-dark text-lg font-semibold">{{ expert.name }}</div>
               <div class="text-sm">{{ expert.role }}</div>
             </div>
           </div>
-          <img :src="expert.photo" :alt="expert.name" class="rounded-box"/>
+          <img :src="expert.photo" :alt="expert.name" class="object-cover w-full h-full"/>
         </div>
       </div>
     </div>
@@ -25,9 +25,9 @@
 <script setup lang="ts">
 import XSectionTitle from "@/components/XSectionTitle.vue";
 import KaluOnumah from "@/assets/team/kalu-onumah.png";
-import GodgiftAroh from "@/assets/team/godgift-aroh.png";
 import EngerColman from "@/assets/team/enger-colman.png";
-import MajiOlobo from "@/assets/team/maji-olobo.png";
+import JohnEblabor from "@/assets/team/john-eblabor.jpg";
+import IkemeOkechukwu from "@/assets/team/ikeme-okey.jpg";
 
 const experts = [
   {
@@ -41,14 +41,14 @@ const experts = [
     role: 'Chief Technology Officer'
   },
   {
-    photo: GodgiftAroh,
-    name: 'Godgift Aroh',
-    role: 'Director of Product'
+    photo: IkemeOkechukwu,
+    name: 'Ikeme Okechukwu',
+    role: 'Director of Business Development'
   },
   {
-    photo: MajiOlobo,
-    name: 'Maji Olobo',
-    role: 'Head Operations Officer'
+    photo: JohnEblabor,
+    name: 'Eblabor John',
+    role: 'Director of Operations'
   },
 ];
 
