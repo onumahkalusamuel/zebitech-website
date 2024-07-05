@@ -7,7 +7,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Zebitech  Is A Medical Imaging And Clinical Support Centre With A Vision Of Providing Safe, Reliable And Affordable Diagnostics And Medical Services.'
+      content: 'We\'re dedicated to harnessing the latest advancements in technology to drive innovation and empower businesses worldwide'
     },
     {
       name: 'og:title',
