@@ -24,7 +24,7 @@
 </template>
 <script setup lang="ts">
 import XSectionTitle from "@/components/XSectionTitle.vue";
-import KaluOnumah from "@/assets/team/kalu-onumah.png";
+import KaluOnumah from "@/assets/team/onumah-kalu.jpg";
 import EngerColman from "@/assets/team/enger-colman.png";
 import JohnEblabor from "@/assets/team/john-eblabor.jpg";
 import IkemeOkechukwu from "@/assets/team/ikeme-okey.jpg";
